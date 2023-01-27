@@ -4,21 +4,21 @@
 }
 
 :root {
-    --glaucous: #7180AC;
-    --dark-cornflower-blue: #2B4570;
-    --light-blue: #A8D0DB;
-    --yellow-munsell: #EFCA08;
-    --honey-yellow: #f7b32b;
+    --egg: #F0EAD6;
+    --nardo: #686A6C;
+    --orange: #FFA500;
+    --white: #ffffff;
+    --beige: #F5F5DC;
 }
 
 body {
     margin: 0;
     overflow-x: hidden;
-    background-color: var(--glaucous);
+    background-color: var(--nardo);
 }
 
 .nav-bar {
-    background-color: var(--dark-cornflower-blue);
+    background-color: var(--orange);
     width: 100%;
     padding: 30px;
     display: flex;
@@ -27,24 +27,24 @@ body {
 }
 
 .nav-button {
-    background-color: var(--yellow-munsell);
-    border-radius: 10px;
-    color: var(--glaucous);
-    padding: 15px;
+    background-color: var(--white);
+    border-radius: 20px;
+    color: var(--nardo);
+    padding: 25px;
     padding-left: 40px;
     padding-right: 40px;
-    transition: 300ms;
+    transition: 600ms;
 }
 
 .nav-button:hover {
-    background-color: var(--honey-yellow);
+    background-color: var(--beige);
     cursor: pointer;
 }
 
 .nav-title {
-    border: 5px solid var(--yellow-munsell);
+    border: 5px solid var(--egg);
     border-radius: 10px;
-    color: var(--yellow-munsell);    
+    color: var(--white);    
     padding: 20px;
     font-size: 25px;
     font-weight: 800;

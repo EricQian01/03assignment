@@ -12,22 +12,22 @@ export default function Card ({
             backgroundColor: colourCard, 
             fontSize: font,
             color: fontColour,
-            border: "2px solid",
+            border: "5px solid",
             display: "flex",
             alignItems:"center",
-            borderRadius: "20px",
-            width: "650px",
-            padding: "20px",
-            margin: "20px",
-            fontWeight: "700"
+            borderRadius: "35px",
+            width: "600px",
+            padding: "25px",
+            margin: "10px",
+            fontWeight: "600"
         }}>
             <div style={{
                 marginRight: "40px",
                 marginLeft: "10px",
             }}>
                 {
-                    gpa <= "3.5" ? <img src={"icon/person.png"} width='70'/>:
-                    gpa > "3.5" ? <img src={'icon/personThree.png'} width='70'/>:
+                    gpa <= "3.5" ? <img src={"icon/Money.png.jpeg"} width='90'/>:
+                    gpa > "3.5" ? <img src={'icon/Money.png.jpeg'} width='90'/>:
                     <img src={image} width='70'/>
                 }
             </div>
@@ -35,21 +35,21 @@ export default function Card ({
             <div style={{
                 backgroundColor: colourInfo,
                 borderRadius: "20px",
-                boxShadow: "8px 8px #2B4570",
+
                 padding: "20px",
                 paddingLeft: "10px",
                 display: "flex",
                 flexDirection:"column",
                 justifyContent: "center",
-                width: "480px"
+                width: "600px"
             }}>
                 <div style={{
-                    padding: "10px",
-                    marginBottom: "10px",
-                    backgroundColor: "#2B4570",
-                    color: "#EFCA08",
+                    padding: "20px",
+                    marginBottom: "40px",
+                    backgroundColor: "#F5F5DC",
+                    color: "#000000",
                     textAlign: "center",
-                    borderRadius: "10px"
+                    borderRadius: "5px"
                 }}>
                     {degree}
                 </div>

@@ -1,18 +1,14 @@
 [
     {
         "name": "Eric Qian",
-        "speciality": "snorlax behavior",
-        "position": "top mans at TBC"
+        "position": "Top man at TBC"
     },
     {
-        "name": "Choo Choo",
-        "speciality": "nothing really",
-        "position": "mechanic at TBC"
+        "name": "Frederick Qian",
+        "position": "Employee of the month at TBC"
     },
     {
-        "name": "Bad Day Adam, Good Day Sunny",
-        "speciality": "driving sober",
-        "position": "track marshall at TBC"
+        "name": "Hong-Sheng Qian",
+        "position": "Employee of the year at TBC"
     }
-
 ]
